@@ -1,0 +1,149 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #000;
+  font-size: 14px;
+  margin-top: 20px;
+  /* padding-top: 50px; */
+  
+
+}
+
+body h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #606060;
+    font-weight:bold;
+    /* padding-top: 30px; */
+    padding-bottom: 20px;
+    
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header{
+    padding-top: 46px;
+    background-color: #efe6dd;
+    padding-bottom: 15px;
+    
+}
+
+.header-nav{
+    display: flex; /* Horizontal alignment */
+    justify-content: space-between;
+    align-items: flex-end; /* Vertical alignment */
+    margin-bottom: 20px;
+}
+
+
+
+.logo{
+    position: relative;
+    padding: 0 12px 3px 0;
+    
+}
+
+/* Navigation */
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+
+.nav-button {
+    display: none;
+}
+
+.nav-item {
+    display: flex;
+    column-gap: 50px;
+}
+
+.nav-link{
+    color: #000;
+
+}
+
+.nav-link.active {
+    color:#606060;
+
+}
+
+/* Header-content */
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+    margin-bottom: 20px;
+}
+
+.header-content{
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+
+.header-content p {
+    line-height: 2;
+
+}
+
+.header-img {
+    /* position: relative; */
+    margin-bottom: 20px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    /* width: 500px; */
+    /* height: 200px; */
+    /* border: 0; */
+
+}
+
+.footer {
+    position: fixed;  bottom: 0;  left: 0; width: 100%;  
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #828282;
+}
+
+.portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.project {
+    text-align: center;
+
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+    /* width: 500px;
+    height: 500px; */
+
+}
+
+.project-title {
+    font-size: 18px;
+}
+
+.project-title a {
+    color: #000;
+    text-decoration: underline;
+}
